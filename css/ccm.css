@@ -117,11 +117,6 @@ a {
 .cursos h3 {
     color: #333333;
 }
-
-.cursos .curso-titulo {
-    color: white;
-}
-
 .fisico-matematicas {
     padding: 20px;
     background: #2DD0E3;
@@ -152,8 +147,8 @@ a {
 }
 
 .cursos .titulo {
-    margin-top: 1.75rem;
-    margin-bottom: 1px;
+    margin-top: 1.4rem;
+    margin-bottom: 4px;
 }
 
 .cursos p {
@@ -166,7 +161,7 @@ a {
     /*background-position: 80% bottom;*/
     /*background-repeat: no-repeat;*/
     background-size: 350px;
-    background-color: #e4e4e4;
+    background-color: #262929;
     padding-top: 40px;
     padding-bottom: 40px;
 }
@@ -188,30 +183,46 @@ a {
 
 .programa h1 {
     margin-top: 10px;
-    color: #c300ba;
+    color: #ffffff;
 }
 
 .programa h3 {
-    color: black;
+    color: #b4e6ff;
     margin-top: .75rem;
     margin-bottom: 1px;
 }
 
 .programa p {
-    color: #13708e;
+    color: #009dd0;
     font-size: 1.2rem;
     margin-bottom: 1.5rem;
 }
 
 .programa .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
-    color: #004f9e;
-    background-color: #a5bbe4;
+    color: #F8BC8D;
+    background-color: #4a4a4a;
     border-color: #495057 #495057 #495057;
     font-size: 1.2rem;
 }
 
+.nav-tabs {
+    border-bottom: 1px solid #616161;
+}
+
 .programa .table td, .table th {
-    border-top: 1px solid #127d8a;
+    border-top: 1px solid #545454;
+    color: #8c8c8c;
+}
+
+.programa a {
+    color: #F8BC8D;
+}
+
+hr {
+    margin-top: 1.2rem;
+    margin-bottom: 1.2rem;
+    border: 0;
+    border-top: 1px solid #545454;
 }
 
 #organizadores {
@@ -268,7 +279,7 @@ a {
 }
 
 .card-body p {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
 }
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 568px) {
